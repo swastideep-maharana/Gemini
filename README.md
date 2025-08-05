@@ -2,13 +2,13 @@
 
 A fully functional, responsive, and visually appealing frontend for a Gemini-style conversational AI chat application. Built with Next.js 15, TypeScript, Tailwind CSS, and integrated with Google's Gemini AI API for intelligent conversations.
 
-## 🚀 Live Demo
+##  Live Demo
 
 [Deploy to Vercel](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/gemini-chat-clone)
 
-## ✨ Features
+##  Features
 
-### 🔐 Authentication
+###  Authentication
 
 - **OTP-based Login/Signup** with country code selection
 - **Real-time country data** from restcountries.com API
@@ -16,7 +16,7 @@ A fully functional, responsive, and visually appealing frontend for a Gemini-sty
 - **Simulated OTP flow** with timeout delays
 - **Persistent authentication** using localStorage
 
-### 📱 Dashboard
+###  Dashboard
 
 - **Chatroom management** - Create, delete, and search chatrooms
 - **Debounced search** with 300ms delay
@@ -24,7 +24,7 @@ A fully functional, responsive, and visually appealing frontend for a Gemini-sty
 - **Toast notifications** for all actions
 - **User session display** with logout functionality
 
-### 💬 Chat Interface
+###  Chat Interface
 
 - **Real-time messaging** with user and AI messages
 - **Gemini AI Integration** - Powered by Google's Gemini Pro API
@@ -37,7 +37,7 @@ A fully functional, responsive, and visually appealing frontend for a Gemini-sty
 - **Message timestamps** and responsive design
 - **Loading skeletons** for better UX
 
-### 🎨 Global UX Features
+###  Global UX Features
 
 - **Dark/Light mode toggle** with persistent storage
 - **Mobile responsive design** for all screen sizes
@@ -60,7 +60,7 @@ A fully functional, responsive, and visually appealing frontend for a Gemini-sty
 | **AI Integration**   | Google Gemini API (REST) |
 | **Deployment**       | Vercel                   |
 
-## 🤖 AI Features
+##  AI Features
 
 ### Gemini AI Integration
 
@@ -104,7 +104,7 @@ src/
 └── public/               # Static assets
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -150,7 +150,7 @@ npm run build
 npm start
 ```
 
-## 🎯 Implementation Details
+##  Implementation Details
 
 ### Authentication Flow
 
@@ -256,44 +256,5 @@ The Gemini AI integration can be customized in `src/app/utils/geminiApi.ts`:
 3. **Pages**: Add to `src/app/` following Next.js 13+ conventions
 4. **Utilities**: Add to `src/app/utils/` or `src/hooks/`
 
-## 🚀 Deployment
 
-### Vercel (Recommended)
 
-1. Connect your GitHub repository
-2. Import the project
-3. Add environment variables if using Gemini API
-4. Deploy automatically on push
-
-### Manual Deployment
-
-```bash
-npm run build
-# Upload the .next folder to your hosting provider
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Next.js** for the amazing React framework
-- **Tailwind CSS** for the utility-first CSS framework
-- **Zustand** for lightweight state management
-- **React Icons** for the beautiful icon set
-- **React Hot Toast** for elegant notifications
-- **Google Gemini AI** for intelligent conversation capabilities
-
----
-
-**Built with ❤️ using Next.js, TypeScript, Tailwind CSS, and Google Gemini AI**
-"# Gemini" 
