@@ -2,10 +2,6 @@
 
 A fully functional, responsive, and visually appealing frontend for a Gemini-style conversational AI chat application. Built with Next.js 15, TypeScript, Tailwind CSS, and integrated with Google's Gemini AI API for intelligent conversations.
 
-##  
-
-[Live Demo]([https://gemini-theta-woad.vercel.app/])
-
 ##  Features
 
 ###  Authentication
